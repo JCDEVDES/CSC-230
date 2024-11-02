@@ -82,6 +82,7 @@ section#rightColumn > nav.horizontalNavigation li {
 /* Footer Styles */
 footer {
    clear: left;
+   background-color: rgb(71, 52, 29);
    }
 
 footer > nav.verticalNavigation {
