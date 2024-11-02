@@ -17,6 +17,12 @@ body {
    display: grid;
    grid-template-columns: 2fr 1fr;
    }
+
+body > header {
+   Grid-row: 1;
+   Grid-column: 1/-1;
+   }
+      
    
 /* Grid Style for Nested Grid */
 section {
