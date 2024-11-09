@@ -36,19 +36,23 @@ article p:first-of-type::first-line {
  }
  
 /* Aside Styles */
-
-
-
+aside {
+   float: left;
+   width: 768px;
+ }
 
 /* Map Styles */
-
-
-
+div#battleMap {
+   position: relative;
+   margin: 20px auto;
+   width: 688px;
+ }
 
 /* Interactive Map Styles */
-
-
-
+img#mapImage {
+   display: block;
+   width: 100%;
+ }
 
 /* Map Information Styles */
 
