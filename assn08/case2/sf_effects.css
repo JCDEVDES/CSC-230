@@ -27,7 +27,7 @@ body > header nav.tabs {
  body > header nav.tabs li {
    transform: perspective(50px) rotateX(20deg);
  }
- 
+
  body > header nav.tabs li a:hover,
  nav.tabs > li a:active {
    background-color: rgb(231, 231, 231);
@@ -35,7 +35,13 @@ body > header nav.tabs {
 
 
 /* Left Section Styles */
-
+section#left nav.vertical {
+  border: 1px solid rgb(20, 167, 170);
+  border-radius: 25px;
+}
+section#left nav.vertical h1 {
+  border-radius: 25px 25px 0px 0px;
+}
 
 
 
