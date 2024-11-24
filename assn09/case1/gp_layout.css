@@ -48,6 +48,21 @@ body {
    ============================================
 */
 
+@media only screen and (max-width: 480px) {
+   img.panel {
+     width: 100%;
+   }
+ 
+   nav.horizontal {
+     -webkit-order: 99;
+     order: 99;
+   }
+ 
+   body > footer {
+     -webkit-order: 100;
+     order: 100;
+   }
+ }
 
 
 
