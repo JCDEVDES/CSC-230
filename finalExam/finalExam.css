@@ -116,13 +116,14 @@ body {
     margin: 0px;
     padding: 0px;
     height: auto;
+    float: left;
   }
   
   nav ul {
     list-style-type: none;
   }
 
-  section#aboutMe {
+  #aboutMe {
     background-color: rgb(255,240,185);
     width: 75%;
     padding: 15px;
@@ -140,4 +141,14 @@ body {
     margin-top: 30px;
     background-color: rgba(255,240,185);
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  #myLinks {
+    background-color: rgb(255,240,185);
+    width: 75%;
+    padding: 15px;
+  }
+
+  #myLinks > ul {
+    list-style-type: none;
   }
