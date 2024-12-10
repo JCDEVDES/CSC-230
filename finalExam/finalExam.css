@@ -6,3 +6,86 @@
    Filename: finalExam.css
    Required Files: N/A
 */
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 16pt;
+    width: 85%;
+    margin: auto;
+    background-color: darkslategray;
+  }
+  
+  header {
+    background-color: lavender;
+    height: 300px;
+  }
+  
+  header h1 {
+    font-size: 36pt;
+    margin: 35px 0px 0px 0px;
+    padding: 15px 0px 0px 15px;
+    background-color: lavender;
+  }
+  
+  header h3 {
+    font-size: 24pt;
+    margin: 0px;
+    padding: 0px 0px 15px 15px;
+    background-color: lavender;
+  }
+  
+  header img {
+    clear: both;
+    display: block;
+    float: right;
+  }
+  
+  header p {
+    margin: 0px;
+    padding: 15px 0px 0px 15px;
+  
+  }
+  
+  h1 {
+    font-family: Arial;
+    font-size: 22pt;
+    text-align: left;
+    letter-spacing: 2px;
+    margin: 0px;
+    padding: 15px 0px 0px 15px;
+    background-color: slategray;
+  }
+  
+  h3 {
+    font-family: Arial;
+    font-size: 16pt;
+    text-align: left;
+    background-color: lavender; 
+  }
+  
+  p {
+    margin: 15px;
+    padding: 15px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #06e;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 90%;
+    margin-left: 30px;
+  }
+  
+  th,
+  td {
+    padding: 2px, 5px, 2px, 5px;
+  }
+  
