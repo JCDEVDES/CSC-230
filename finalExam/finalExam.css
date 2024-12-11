@@ -28,11 +28,19 @@ body {
     background-color: rgb(255,240,185);
   }
   
-  header h3 {
+  header > h3 {
     font-size: 24pt;
     margin: 0px;
     padding: 0px 0px 15px 15px;
     background-color: rgb(255,240,185);
+    text-align: left;
+  }
+
+  h3 {
+    font-family: Arial;
+    font-size: 16pt;
+    text-align: center;
+    background-color: rgb(255,240,185); 
   }
   
   header img {
@@ -55,13 +63,6 @@ body {
     margin: 0px;
     padding: 15px 0px 0px 15px;
     background-color: slategray;
-  }
-  
-  h3 {
-    font-family: Arial;
-    font-size: 16pt;
-    text-align: left;
-    background-color: rgb(255,240,185); 
   }
   
   p {
@@ -91,7 +92,9 @@ body {
     vertical-align: top;
   }
 
-
+  th {
+    background-color: rgb(255,202, 0);
+  }
 
 
 
@@ -129,7 +132,7 @@ body {
     padding: 15px;
   }
 
-  section h3 {
+  div h3 {
     text-align: center;
   }
   
