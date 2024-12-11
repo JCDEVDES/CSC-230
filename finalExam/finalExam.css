@@ -28,11 +28,20 @@ body {
     background-color: rgb(255,240,185);
   }
   
-  header h3 {
+  header > h3 {
     font-size: 24pt;
     margin: 0px;
     padding: 0px 0px 15px 15px;
     background-color: rgb(255,240,185);
+    text-align: left;
+  }
+
+  h3 {
+    font-family: Arial;
+    font-size: 16pt;
+    /* text-align: left; */
+    text-align: center; 
+    background-color: rgb(255,240,185); 
   }
   
   header img {
@@ -57,12 +66,7 @@ body {
     background-color: slategray;
   }
   
-  h3 {
-    font-family: Arial;
-    font-size: 16pt;
-    text-align: left;
-    background-color: rgb(255,240,185); 
-  }
+
   
   p {
     margin: 15px;
@@ -91,6 +95,10 @@ body {
     vertical-align: top;
   }
 
+  th {
+    background-color: darkblue;
+  }
+
 
 
 
@@ -117,6 +125,7 @@ body {
     padding: 0px;
     height: auto;
     float: left;
+    clear: both;
   }
   
   nav ul {
@@ -127,11 +136,12 @@ body {
     background-color: rgb(255,240,185);
     width: 75%;
     padding: 15px;
+    display: block;
+    clear: both;
+    float: right;
   }
 
-  section h3 {
-    text-align: center;
-  }
+
   
   footer {
     width: 96%;
